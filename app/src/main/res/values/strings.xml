@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kana+</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_resources">Resources</string>
+    <string name="title_activity_game">game</string>
+    <string name="title_activity_game_time_trial">Kana+</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_game_high_score">Kana+</string>
+    <string name="title_activity_game_free">Kana+</string>
+    <string name="title_activity_game_over">Game Over</string>
+
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Game Settings"
+        android:key="game">
+
+        <Preference android:title="Customize displayed Kana"
+                    android:key="customCheckBox"
+                    android:summary="Choose which Kana to show">
+
+            <intent android:action="android.intent.action.CUSTOM"/>
+
+        </Preference>
+
+        <CheckBoxPreference android:title="Offline mode"
+                            android:summary="Chose this option if you are using Kana+ offline, or you are having problems with the random image generation."
+                            android:key="offline"
+                            android:defaultValue="false"/>
+
+        <ListPreference android:key="pref_themeColor"
+                        android:title="Theme"
+                        android:dialogTitle="Choose a theme"
+                        android:dialogIcon="@drawable/ic_action_popup"
+                        android:entries="@array/themeColors"
+                        android:entryValues="@array/themeValues"
+                        android:defaultValue="Default theme"
+                        android:summary="Choose a new theme. The current theme is: 'Default'"/>
+
+        </PreferenceCategory>
+
+    <PreferenceCategory android:title="Kana+">
+
+        <Preference android:title="Join the beta!"
+                    android:summary="If you're running android 'L', and want to try out some materialy Kana goodness, tap here and join the beta community.">
+
+        <intent android:action="android.intent.action.VIEW"
+            android:data="https://plus.google.com/u/0/communities/100766985537489046514"/>
+
+        </Preference>
+
+        <Preference android:title="Rate Kana+ (:"
+                    android:summary="If you like Kana+, or even if you don't, leave a review on the play store with some feedback!">
+
+            <intent android:action="android.intent.action.VIEW"
+                android:data="https://play.google.com/store/apps/details?id=com.diragi.kanaplusv2"/>
+
+                    </Preference>
+
+        <Preference android:title="Changelog"
+                    android:summary="View recent changes. If the window is blank, click 'More...'"
+                    android:key="changelog"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Learn Kana">
+
+        <!--<Preference
+            android:title="Resources"
+            android:summary="List of websites and documents to help you learn Kana.">
+
+            <intent android:action="android.intent.action.RESOURCES"/>-->
+        <Preference android:title="4chan - /a/"
+            android:summary="A great guide on starting to learn japanese. Follow the guide for learning Hiragana and Katakana. Will open in google docs (if installed)">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="https://docs.google.com/document/d/1G5C7fCe07CDzYalZYZObzxv_fhw7RUNsLHiMAY-t7FA/edit"/>
+        </Preference>
+
+        <Preference android:title="Tofugu"
+            android:summary="The way I learned Hiragana. Uses visual aids to help memorize all the Hiragana. At the end of each section, instead of going to 'realkana', just come back into the app, and chose whick kana to show under 'Options > Customize displayed characters'">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="http://www.tofugu.com/guides/learn-hiragana/"/>
+        </Preference>
+
+        <Preference android:title="Georgia Tech - Katakana Mnemonics"
+            android:summary="The way I learned Katakana. A document from the Georgia Tech college website demonstrating Katakana mnemonics, similar to the Hiragana mnemonics from the Tofugu site.">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="http://japanese.gatech.edu/WebCTVista/JAPN1001/contents/Lesson02/katakana/mnemonic-katakana.html"/>
+        </Preference>
+
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

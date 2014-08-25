@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Options">
+
+        <Preference
+            android:title="Hiragana"
+            android:key="hiraganapref"
+            android:summary="Choose which Hiragana to show">
+
+            <intent android:action="android.intent.action.HIRAGANA"/>
+
+        </Preference>
+
+        <Preference
+            android:title="Katakana"
+            android:summary="Choose which Katakana to show"
+            android:key="katakanapref">
+
+            <intent android:action="intent.katakana"/>
+
+        </Preference>
+
+    </PreferenceCategory>
+
+
+
+
+
+</PreferenceScreen>

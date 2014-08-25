@@ -1,0 +1,38 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">#ff66cb17</item>
+        <item name="android:colorPrimaryDark">#ff56ad17</item>
+        <item name="android:navigationBarColor">#ff56ad17</item>
+        <item name="android:windowContentTransitions">true</item>
+
+
+    </style>
+
+    <style name="AppThemeRed" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">#ff8b0407</item>
+        <item name="android:colorPrimaryDark">#ff6d0407</item>
+        <item name="android:navigationBarColor">#ff8b0407</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="AppThemeBlack" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">#ff232323</item>
+        <item name="android:colorPrimaryDark">#ff1e1e1e</item>
+        <item name="android:navigationBarColor">#ff232323</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="Material" parent="android:Theme.Material">
+
+    </style>
+
+    <style name="MaterialLight" parent="android:Theme.Material.Light.DarkActionBar">
+
+    </style>
+
+    <style name="MaterialLD" parent="android:Theme.Material.Light">
+
+    </style>
+
+</resources>

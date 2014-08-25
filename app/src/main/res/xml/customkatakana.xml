@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory
+        android:title="Katakana"
+        android:key="katakanaCustom">
+
+        <CheckBoxPreference
+            android:title="'A', 'I', 'U', 'E', 'O'"
+            android:key="a"
+            android:defaultValue="false"/>
+
+        <CheckBoxPreference
+            android:title="'Ha', 'Hi', 'Hu', 'He', 'Ho'"
+            android:key="Ha"
+            android:defaultValue="false"/>
+
+        <CheckBoxPreference
+            android:title="'Ka', 'Ki', 'Ku', 'Ke', 'Ko'"
+            android:key="ka"
+            android:defaultValue="false"/>
+
+        <CheckBoxPreference
+            android:title="'Sa', 'Shi', 'Su', 'Se', 'So'"
+            android:key="Sa"
+            android:defaultValue="false"/>
+
+        <CheckBoxPreference
+            android:title="'Ta', 'Chi', 'Tsu', 'Te', 'To'"
+            android:key="Ta"
+            android:defaultValue="false"/>
+
+        <CheckBoxPreference
+            android:title="'Na', 'Ni', 'Nu', 'Ne', 'No'"
+            android:key="Na"
+            android:defaultValue="false"/>
+
+        <CheckBoxPreference
+            android:title="'Ma', 'Mi', 'Mu', 'Me', 'Mo'"
+            android:key="Ma"
+            android:defaultValue="false"/>
+
+        <CheckBoxPreference
+            android:title="'Ya', 'Yu', 'Yo"
+            android:key="Ya"
+            android:defaultValue="false"/>
+
+        <CheckBoxPreference
+            android:title="'Ra', 'Ri', 'Ru', 'Re', 'Ro'"
+            android:key="Ra"
+            android:defaultValue="false"/>
+
+        <CheckBoxPreference
+            android:title="'Wa, 'Wi', 'We', 'Wo'"
+            android:key="Wa"
+            android:defaultValue="false"/>
+
+        <CheckBoxPreference
+            android:title="'N'"
+            android:key="Na"
+            android:defaultValue="false"/>
+
+
+    </PreferenceCategory>
+
+
+
+    <PreferenceCategory
+        android:title="Katakana Modifiers"
+        >
+
+        <CheckBoxPreference
+            android:title="'Ba', 'Bi', 'Be', 'Bo', 'Bu'"
+            android:key="baKatakana"
+            android:defaultValue="false"/>
+
+        <CheckBoxPreference
+            android:title="'Da', 'Di', 'De', 'Do', 'Du'"
+            android:key="daKatakana"
+            android:defaultValue="false"/>
+
+        <CheckBoxPreference
+            android:title="'Ga', 'Gi', 'Ge', 'Go', 'Gu'"
+            android:key="gaKatakana"
+            android:defaultValue="false"/>
+
+        <CheckBoxPreference
+            android:title="'Pa', 'Pi', 'Pe', 'Po', 'Pu'"
+            android:key="paKatakana"
+            android:defaultValue="false"/>
+
+        <CheckBoxPreference
+            android:title="'Za', 'Zi', 'Ze', 'Zo', 'Zu'"
+            android:key="zaKatakana"
+            android:defaultValue="false"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

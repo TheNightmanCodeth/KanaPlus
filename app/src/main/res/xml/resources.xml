@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Resources"
+        android:key="resources">
+
+        <Preference android:title="4chan - /a/"
+                    android:summary="A great guide on starting to learn japanese. Follow the guide for learning Hiragana and Katakana. Will open in google docs (if installed)">
+            <intent android:action="android.intent.action.VIEW"
+                    android:data="https://docs.google.com/document/d/1G5C7fCe07CDzYalZYZObzxv_fhw7RUNsLHiMAY-t7FA/edit"/>
+        </Preference>
+
+        <Preference android:title="Tofugu"
+                    android:summary="The way I learned Hiragana. Uses visual aids to help memorize all the Hiragana. At the end of each section, instead of going to 'realkana', just come back into the app, and chose whick kana to show under 'Options > Customize displayed characters'">
+            <intent android:action="android.intent.action.VIEW"
+                    android:data="http://www.tofugu.com/guides/learn-hiragana/"/>
+        </Preference>
+
+        <Preference android:title="Georgia Tech - Katakana Mnemonics"
+                    android:summary="The way I learned Katakana. A document from the Georgia Tech college website demonstrating Katakana mnemonics, similar to the Hiragana mnemonics from the Tofugu site.">
+            <intent android:action="android.intent.action.VIEW"
+                    android:data="http://japanese.gatech.edu/WebCTVista/JAPN1001/contents/Lesson02/katakana/mnemonic-katakana.html"/>
+        </Preference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

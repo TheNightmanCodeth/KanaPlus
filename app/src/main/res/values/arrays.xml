@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="gameModes">
+
+        <item>Free Play</item>
+        <item>Time Trial</item>
+        <item>High Score</item>
+
+    </string-array>
+
+    <string-array name="gameModesValues">
+
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+
+    </string-array>
+
+    <string-array name="themeColors">
+
+        <item>Default</item>
+        <item>Red</item>
+        <item>Black</item>
+        <item>Material</item>
+        <item>Material Light Dark</item>
+        <item>Material Light</item>
+
+    </string-array>
+
+    <string-array name="themeValues">
+
+        <item>Default theme</item>
+        <item>Red theme</item>
+        <item>Black theme</item>
+        <item>Material theme</item>
+        <item>Material Light theme</item>
+        <item>Material LD theme</item>
+
+    </string-array>
+
+</resources>

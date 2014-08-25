@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<changelog>
+
+    <release version="4.0.0 BETA5" versioncode="200">
+        <change>Added a bunch of themes</change>
+        <change>Better randomization</change>
+        <change>Bugfixes galore</change>
+    </release>
+
+    <release version="4.0.0 BETA4" versioncode="22">
+        <change>Changed the version naming system (BETA2 instead of 4.0.2 BETA)</change>
+        <change>Bugfixes</change>
+    </release>
+
+    <release version="4.0.1 BETA3" versioncode="21">
+        <change>Added some new options to settings</change>
+        <change>Introducing a slick new changelog(;</change>
+    </release>
+
+    <release version="4.0.0 BETA2" versioncode="20">
+        <change>Added some new L animations</change>
+        <change>Some bug fixes</change>
+    </release>
+
+</changelog>

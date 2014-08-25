@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <PreferenceCategory
+        android:title="Hiragana"
+        android:key="hiriganaCustom">
+
+        <CheckBoxPreference
+            android:title="'A', 'I', 'U', 'E', 'O'"
+            android:key="aiueo"
+            android:defaultValue="true"/>
+
+        <CheckBoxPreference
+            android:title="'Ha', 'Hi', 'Hu', 'He', 'Ho'"
+            android:key="Hakikukeko"
+            android:defaultValue="true"/>
+
+        <CheckBoxPreference
+            android:title="'Ka', 'Ki', 'Ku', 'Ke', 'Ko'"
+            android:key="kakikukeko"
+            android:defaultValue="true"/>
+
+        <CheckBoxPreference
+            android:title="'Sa', 'Shi', 'Su', 'Se', 'So'"
+            android:key="Sakikukeko"
+            android:defaultValue="true"/>
+
+        <CheckBoxPreference
+            android:title="'Ta', 'Chi', 'Tsu', 'Te', 'To'"
+            android:key="Takikukeko"
+            android:defaultValue="true"/>
+
+        <CheckBoxPreference
+            android:title="'Na', 'Ni', 'Nu', 'Ne', 'No'"
+            android:key="Nakikukeko"
+            android:defaultValue="true"/>
+
+        <CheckBoxPreference
+            android:title="'Ma', 'Mi', 'Mu', 'Me', 'Mo'"
+            android:key="Makikukeko"
+            android:defaultValue="true"/>
+
+        <CheckBoxPreference
+            android:title="'Ya', 'Yu', 'Yo"
+            android:key="Yakikukeko"
+            android:defaultValue="true"/>
+
+        <CheckBoxPreference
+            android:title="'Ra', 'Ri', 'Ru', 'Re', 'Ro'"
+            android:key="Rakikukeko"
+            android:defaultValue="true"/>
+
+        <CheckBoxPreference
+            android:title="'Wa, 'Wo'"
+            android:key="Wakikukeko"
+            android:defaultValue="true"/>
+
+        <CheckBoxPreference
+            android:title="'N'"
+            android:key="Nkikukeko"
+            android:defaultValue="true"/>
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Hiragana Modifiers"
+        >
+
+        <CheckBoxPreference
+            android:title="'Ba', 'Bi', 'Be', 'Bo', 'Bu'"
+            android:key="baHiragana"
+            android:defaultValue="false"/>
+
+        <CheckBoxPreference
+            android:title="'Da', 'Di', 'De', 'Do', 'Du'"
+            android:key="daHiragana"
+            android:defaultValue="false"/>
+
+        <CheckBoxPreference
+            android:title="'Ga', 'Gi', 'Ge', 'Go', 'Gu'"
+            android:key="gaHiragana"
+            android:defaultValue="false"/>
+
+        <CheckBoxPreference
+            android:title="'Pa', 'Pi', 'Pe', 'Po', 'Pu'"
+            android:key="paHiragana"
+            android:defaultValue="false"/>
+
+        <CheckBoxPreference
+            android:title="'Za', 'Zi', 'Ze', 'Zo', 'Zu'"
+            android:key="zaHiragana"
+            android:defaultValue="false"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
